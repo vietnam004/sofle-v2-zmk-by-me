@@ -24,8 +24,8 @@ layers:
   - '6'
   - '7'
   - '8'
-  - '9'
-  - '0'
+  - '['
+  - ']'
   - '-'
   - {t: ▽, type: trans}
   - '!'
@@ -38,7 +38,7 @@ layers:
   - KP MULTIPLY
   - (
   - )
-  - +
+  - '='
   - {t: ▽, type: trans}
   - '='
   - '-'
@@ -47,12 +47,12 @@ layers:
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - '&key_repeat'
+  - '&msc SCRL_DOWN'
   - ;
   - ':'
   - \
-  - {t: ▽, type: trans}
+  - +
   - BT NXT
   - BT CLR
   - BT CLR ALL
